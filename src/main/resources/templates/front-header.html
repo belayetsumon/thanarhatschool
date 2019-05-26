@@ -1,0 +1,83 @@
+<div class="container">
+<div class="row" style="background-color: #FFF; min-height: 120px">
+    <div class="col-sm-2 "> 
+        <h1>  <img  class="img-fluid  " th:src="@{/img/logo.png}" /></h1></div>
+    <div class="col-sm-8">   
+
+        <h2 class="hvr-wobble-bottom textGreen mt-4"><b> Thanar Hat High School Alumni Association </b></h2>
+        <h5 class="text-center textR font-weight-bold"> Established: 2019 </h5>  
+    </div>
+    <div class="col-sm-3 ">   
+        <h4 class="text-center">   </h4>
+        <h4 class="text-center">  </h4>
+    </div>
+
+</div>
+</div>
+<nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+    <div class="container">
+        <div class="row">
+    <a class="navbar-brand" href="#">&nbsp;</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" th:href="@{/}">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" th:href="@{/front-view/about-us}">About Us</a>
+                     <a class="dropdown-item" th:href="@{/front-view/mission-vision}">Mission & Vision</a>
+                    <a class="dropdown-item" th:href="@{/front-view/advisory-council}">Advisory Council</a>
+                    <a class="dropdown-item" th:href="@{/front-view/executive-committee}">Executive committee</a>
+                    <a class="dropdown-item" th:href="@{/front-view/constitution}">Constitution</a>
+                    <div class="dropdown-divider"></div>
+                    
+                </div>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Member
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" th:href="@{/front-view/all-member}">All Member</a>
+                    <a class="dropdown-item" th:href="@{/front-view/member-login}">Member Login</a>
+                    <a class="dropdown-item" th:href="@{/front-view/member-registration}">Member Registration</a>
+                    <a class="dropdown-item" th:href="@{/front-view/batch-modaretor}">Batch Moderator</a>
+                    <div class="dropdown-divider"></div>
+                    
+                </div>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/front-view/news-events}">News And Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/front-view/gallery}">Gallery</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" th:href="@{/front-view/donations}">Donations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/front-view/contactUs}">Contact Us</a>
+            </li>
+               <li class="nav-item">
+                <a class="nav-link" th:href="@{/profile/index}">Your Profile</a>
+            </li>
+               <li class="nav-item">
+                <a class="nav-link" th:href="@{/users/logout}">Log out</a>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+    </div>
+</nav>
+
+
